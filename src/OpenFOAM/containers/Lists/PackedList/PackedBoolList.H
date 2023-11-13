@@ -200,7 +200,7 @@ public:
             inline PackedBoolList& operator=(const PackedList<1>&);
 
             //- Assignment operator.
-            PackedBoolList& operator=(const UList<bool>&);
+            PackedBoolList& operator=(const Foam::UList<bool>&);
 
             //- Assignment operator,
             //  using the labels as indices to indicate which bits are set
