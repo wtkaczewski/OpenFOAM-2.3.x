@@ -350,11 +350,13 @@ $(divSchemes)/gaussDivScheme/gaussDivSchemes.C
 gradSchemes = finiteVolume/gradSchemes
 $(gradSchemes)/gradScheme/gradSchemes.C
 $(gradSchemes)/gaussGrad/gaussGrads.C
+$(gradSchemes)/iterativeGaussGrad/iterativeGaussGrads.C
 
 $(gradSchemes)/leastSquaresGrad/leastSquaresVectors.C
 $(gradSchemes)/leastSquaresGrad/leastSquaresGrads.C
 $(gradSchemes)/LeastSquaresGrad/LeastSquaresGrads.C
 $(gradSchemes)/fourthGrad/fourthGrads.C
+
 
 limitedGradSchemes = $(gradSchemes)/limitedGradSchemes
 $(limitedGradSchemes)/faceLimitedGrad/faceLimitedGrads.C
